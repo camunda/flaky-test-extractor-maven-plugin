@@ -64,4 +64,4 @@ There are three configuration options:
 
 ## How to release this project?
 
-Manually trigger a [release workflow run](https://github.com/zeebe-io/flaky-test-extractor-maven-plugin/actions/workflows/release.yml) with the desired parameters for current and next version.
+Manually trigger a [release workflow run](https://github.com/camunda/flaky-test-extractor-maven-plugin/actions/workflows/release.yml) with the desired parameters for current and next version.

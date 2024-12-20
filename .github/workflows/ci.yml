@@ -74,7 +74,7 @@ jobs:
             **/target/failsafe-reports/TEST-*.xml
 
       - name: Deploy Snapshot Artifacts
-        if: github.repository == 'zeebe-io/flaky-test-extractor-maven-plugin' && github.ref == 'refs/heads/main'
+        if: github.repository == 'camunda/flaky-test-extractor-maven-plugin' && github.ref == 'refs/heads/main'
         run: mvn -B -DskipTests generate-sources source:jar javadoc:jar deploy
         env:
           MAVEN_USERNAME: ${{ steps.secrets.outputs.ARTIFACTS_USR }}
