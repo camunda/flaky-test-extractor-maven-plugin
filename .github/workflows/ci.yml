@@ -40,7 +40,7 @@ jobs:
             secret/data/products/zeebe/ci/zeebe ARTIFACTS_PSW;
 
       - name: Setup Maven
-        uses: s4u/setup-maven-action@v1.8.0
+        uses: s4u/setup-maven-action@v1.18.0
         with:
           java-version: '11'
           distribution: 'temurin'
