@@ -37,7 +37,7 @@
 
     <plugin.version.spotless>2.22.3</plugin.version.spotless>
     <plugin.version.jacoco>0.8.8</plugin.version.jacoco>
-    <plugin.version.enforcer>3.0.0</plugin.version.enforcer>
+    <plugin.version.enforcer>3.5.0</plugin.version.enforcer>
   </properties>
 
   <dependencies>
