@@ -27,7 +27,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <version.java>8</version.java>
-    <maven.version>3.6.2</maven.version>
+    <maven.version>3.9.9</maven.version>
     <surefire.version>3.0.0</surefire.version>
     <assertj.version>3.22.0</assertj.version>
     <junit.version>4.13.2</junit.version>
